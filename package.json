@@ -4,7 +4,11 @@
   "description": "A super-browser app build by electron",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "npm run build && electron ./dist/main.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/zhaolandelong/super-browser/issues"
   },
-  "homepage": "https://github.com/zhaolandelong/super-browser#readme"
+  "homepage": "https://github.com/zhaolandelong/super-browser#readme",
+  "devDependencies": {
+    "electron": "^8.0.2",
+    "tslint": "^6.0.0",
+    "typescript": "^3.8.3"
+  }
 }
