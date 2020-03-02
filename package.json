@@ -1,0 +1,23 @@
+{
+  "name": "super-browser",
+  "version": "1.0.0",
+  "description": "A super-browser app build by electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaolandelong/super-browser.git"
+  },
+  "keywords": [
+    "electron",
+    "puppeteer"
+  ],
+  "author": "zhaolandelong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhaolandelong/super-browser/issues"
+  },
+  "homepage": "https://github.com/zhaolandelong/super-browser#readme"
+}
